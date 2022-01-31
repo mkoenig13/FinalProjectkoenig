@@ -69,7 +69,14 @@ h1{
 
 }
 
+.productbox2{
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+    margin-right: -40%;
+    margin-top: -37%;
 
+}
 
 
 
@@ -82,6 +89,17 @@ h1{
     left: 20px;
     box-shadow: 0px 5px 20px lightgrey;
 }
+
+
+.whitebag{
+    position:relative;
+    top: 100px;
+    height: 40%;
+    width: 40%;
+    left: 20px;
+    box-shadow: 0px 5px 20px lightgrey;
+}
+
 
 .overlay {
     position: absolute;
@@ -99,3 +117,39 @@ h1{
   .greenbag:hover .overlay {
     opacity: 1;
   }
+
+.paragraph {
+    position:sticky;
+    margin-top: 5%;
+    height: 100%;
+    width: 40%;
+    margin-left: 55%;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+  .greenbagtext {
+    position:sticky;
+    margin-top: -35%;
+    height: -200%;
+    width: 40%;
+    margin-left: 55%;
+    text-align: left;
+    letter-spacing: 7px;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+h2 {
+    text-align: left;
+    margin-left: 0%;
+    margin-right: -30%;
+    font-size: 20px;
+    letter-spacing: 7px;
+    font-family: 'Open Sans', sans-serif;
+
+
+  
+}
