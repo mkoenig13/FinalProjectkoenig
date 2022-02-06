@@ -3,31 +3,76 @@
     padding: 0px;
     box-sizing: border-box;   
     scroll-behavior: smooth;  
-    width: 100%;
-   
+    width: 100%; 
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.p2 {
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 20px;
+    line-height: 50px;
+    font-size: 28px;
 }
 
 .top{
     background-color: white;
-    height: 40%;
+    height: 70px;
     box-shadow: 0px 5px 20px lightgrey;
     position: sticky;
     top: 0;
     margin-bottom: 0px;
     width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 100;
+   
 }
 
-h1{
+.top-item{
+    height: 100px;
+    width: 200px;
 
+    /* margin-left: -600px; */
+}
+.top-item2{
+    height: 100%;
+    width: 200px;
+
+    /* margin-left: -600px; */
+}
+
+.search-icon {
+    height: 20px;
+    width: 300px;
+    margin-right: 0%;
+}
+
+
+/* .top-item img{
+    height: 25px;
+    width: 25px;
+    /* margin-left: 950px;
+    margin-top: -40px;
+    margin-bottom: 13px; */
+/* } */ 
+
+h1{
     text-align: center;
     margin-left: 0%;
-    margin-right: -40%;
-    font-size: 50px;
-    font-family: 'Antic Didone', serif;
-    letter-spacing: 10px;
-
-    
-    
+    margin-right: 11.5%;
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 200px;
+    /* font-family: 'Antic Didone', serif; */
+    letter-spacing: 18px; 
+    max-height: 100%;
 }
 
 
@@ -36,9 +81,15 @@ h1{
     width: 50%;
     margin-left: 30%;
     margin-right: 0%;
-    margin-top: -10%;
-  
-    
+    margin-top: 0%; 
+}
+
+.container2{        
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%; 
 }
 
 .tents {
@@ -50,33 +101,33 @@ h1{
 }
 
 .overlap {
-    top: 250px;
-    margin-left: -100px;
-    margin-top: -120%;
+    top: 200px;
+    margin-left: -180px;
+    margin-top: -140%;
     height: 100%;
     width: 100%;
 }
 
 
+.productcontainer{
+    height: 200%;
+    width: 200%;
+    margin-left: 100%;
+}
 
 
 .productbox{
-    height: 400px;
-    width: 300px;
-    margin-left: 10%;
-    margin-right: 0%;
-    margin-top: 20%;
-
+    height: 100%;
+    width: 100%;
+   
 }
 
 .productbox2{
-    height: 300px;
-    width: 300px;
-    margin-left: 40%;
-    margin-right: -40%;
-    margin-top: -37%;
-
+    height: 20%;
+    max-width: 100px;
+   
 }
+
 
 
 
@@ -84,22 +135,20 @@ h1{
 .greenbag{
     position:relative;
     top: 100px;
-    height: 40%;
-    width: 40%;
-    left: 20px;
+    max-height: 16%;
+    max-width: 30%;
+    left: 100px;
     box-shadow: 0px 5px 20px lightgrey;
 }
-
 
 .whitebag{
     position:relative;
     top: 100px;
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
     left: 20px;
     box-shadow: 0px 5px 20px lightgrey;
 }
-
 
 .overlay {
     position: absolute;
@@ -120,27 +169,24 @@ h1{
 
 .paragraph {
     position:sticky;
-    margin-top: 5%;
-    height: 100%;
+    margin-top: 10%;
+    height: 90%;
     width: 40%;
     margin-left: 55%;
     letter-spacing: 4px;
     font-family: 'Open Sans', sans-serif;
-
-
 }
 
   .greenbagtext {
     position:sticky;
-    margin-top: -35%;
+    margin-top: -17%;
     height: -200%;
     width: 40%;
     margin-left: 55%;
     text-align: left;
     letter-spacing: 7px;
     font-family: 'Open Sans', sans-serif;
-
-  }
+}
 
 h2 {
     text-align: left;
@@ -149,7 +195,231 @@ h2 {
     font-size: 20px;
     letter-spacing: 7px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 1%;
+}
+
+.row2{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 600px;
+    margin-top: 500px;
+    margin-left: -0.4%;
+    margin-right: 0%;
+    
+}
+
+
+.row-item{
+    height: 400px;
+    width: 400px;
+    margin-top: 0px;
+    margin-right: 0%;
+    background-color: white;
+}
+
+
+
+.green-bag{
+    position: relative;
+    top: 10px;
+}
+
+.row-item img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+
+.label{
+    text-align: left;
+    margin-left: 0%;
+    margin-right: -30%;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.row-item2{
+    height: 400px;
+    max-width: 400px;
+    background-color: white;
+    margin-top: -700px;
+}
+
+.block{
+    height: 100%;
+    margin-top: 200px;
+    max-width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 200px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
 
 
   
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 8px;
+
+    font-size: 16px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0px;
+      padding: 18px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+  .greybox {
+    height: 370px;
+    max-width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding-left: 50px;
+  }
+
+  .littlebox{
+      height: 50px;
+      width: 200px;
+      background-color: lightgray;
+      margin-left: 75%;
+      margin-top: -330px;
+      text-align: center;
+      font-size: 18px;
+      padding-top: 12px;
+
+  }
+
+
+  .sourcebox {
+    height: 50%;
+    width: 700px;
+    text-align: left;
+    margin-left: 2%;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    overflow-wrap: anywhere;
+  }
+
+  .contactbox {
+    height: 200px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .home{
+    height: 40px;
+    width: 160px;
+    background-color: lightgray;
+    margin-left: 8.5%;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+    margin-bottom: 60px;
+}
+
+.home2{
+    height: 40px;
+    width: 160px;
+    background-color: lightgray;
+    margin-left: 8.5%;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+    margin-bottom: 60px;
+}
+
+
+.bagcontainer{
+    background-color: white;
+    height: 70px;
+    top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: -20%;
+    margin-top: 100px;
+    
+}
+
+
+.bagcontainer2{
+    background-color: white;
+    height: 70px;
+    top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -400px;
+}
+
+.bagtext{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 100px;
+    margin-right: 110px;
 }
