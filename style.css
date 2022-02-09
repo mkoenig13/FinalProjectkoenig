@@ -30,7 +30,7 @@ p {
     align-items:center;
     justify-content: space-between;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 0px;
     z-index: 100;
    
 }
@@ -49,9 +49,12 @@ p {
 }
 
 .search-icon {
-    height: 20px;
+    height: 36px;
     width: 300px;
-    margin-right: 0%;
+    margin-right: 30px;
+    margin-left: -700px;
+
+ 
 }
 
 
@@ -65,8 +68,8 @@ p {
 
 h1{
     text-align: center;
-    margin-left: 0%;
-    margin-right: 11.5%;
+    margin-left: 24%;
+    margin-right: 76.5%;
     font-size: 60px;
     font-family: 'Arimo', sans-serif;
     font-weight: 200px;
@@ -169,8 +172,9 @@ h1{
 
 .paragraph {
     position:sticky;
-    margin-top: 10%;
-    height: 90%;
+    margin-top: 8%;
+    margin-bottom: 40%;
+    height: 100%;
     width: 40%;
     margin-left: 55%;
     letter-spacing: 4px;
@@ -179,8 +183,8 @@ h1{
 
   .greenbagtext {
     position:sticky;
-    margin-top: -17%;
-    height: -200%;
+    margin-top: -21.5%;
+    height: 100%;
     width: 40%;
     margin-left: 55%;
     text-align: left;
@@ -198,7 +202,7 @@ h2 {
 }
 
 .row{
-    height: 300px;
+    height: 280px;
     background-color: white;
     display: flex;
     justify-content:space-around;
@@ -224,7 +228,7 @@ h2 {
 
 
 .row-item{
-    height: 400px;
+    height: 410px;
     width: 400px;
     margin-top: 0px;
     margin-right: 0%;
@@ -247,10 +251,11 @@ h2 {
 
 .label{
     text-align: left;
-    margin-left: 0%;
-    margin-right: -30%;
-    font-size: 18px;
-    letter-spacing: 4px;
+    margin-left: 10%;
+    width: 100px;
+    margin-right: -20%;
+    font-size: 16px;
+    letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -280,6 +285,7 @@ h2 {
 .topnav {
     overflow: hidden;
     background-color: white;
+    width: 270%;
   }
   
   /* Style the links inside the navigation bar */
@@ -323,21 +329,22 @@ h2 {
   }
 
   .greybox {
-    height: 370px;
+    height: 200px;
     max-width: 100%;
     background-color: whitesmoke;
     margin-top: 0px;
     padding-left: 50px;
+    padding: 40px;
   }
 
   .littlebox{
-      height: 50px;
-      width: 200px;
+    height: 40px;
+    width: 160px;
       background-color: lightgray;
-      margin-left: 75%;
-      margin-top: -330px;
+      margin-left: 82%;
+      margin-top: -60px;
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 12px;
 
   }
@@ -471,13 +478,20 @@ button:hover {
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  padding: 0px;
+  margin-top: 100px;
+  margin-bottom: -9%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* The "Forgot password" text */
@@ -495,4 +509,75 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+
+
+
+.footer {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  padding: 50px;
+  line-height: 30px;
+}
+
+
+
+.homecenter{
+  height: 40px;
+  width: 160px;
+  background-color: lightgray;
+  margin-left: 45%;
+  margin-right: 55%;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+  margin-bottom: 60px;
+}
+
+.homehover:hover .overlay {
+  opacity: 1;
+}
+
+
+.bag {
+  min-width: 40px;
+  min-height: 40px;
+  max-height: 55px;
+  max-width: 55px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-right: 2px;
+  margin-left: 65px;
+
+  
+}
+
+.final {
+  background-color: white;
+  padding: 18px 26px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 8%;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 6px 40px black;
+}
+
+.p3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  color: black;
+  z-index: 100;
+  letter-spacing: 19px;
 }
