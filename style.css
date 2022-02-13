@@ -7,12 +7,12 @@
 }
 
 p {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
 }
 
 .p2 {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 20px;
     line-height: 50px;
     font-size: 28px;
@@ -49,10 +49,11 @@ p {
 }
 
 .search-icon {
-    height: 36px;
-    width: 300px;
+    height: 22%;
+    width: 22%;
     margin-right: 30px;
     margin-left: -700px;
+    margin-top: -1.3%;
 
  
 }
@@ -68,8 +69,8 @@ p {
 
 h1{
     text-align: center;
-    margin-left: 24%;
-    margin-right: 76.5%;
+    margin-left: 39%;
+    margin-right: 61%;
     font-size: 60px;
     font-family: 'Arimo', sans-serif;
     font-weight: 200px;
@@ -80,9 +81,9 @@ h1{
 
 
 .container1{        
-    height: 100%;
-    width: 50%;
-    margin-left: 30%;
+    height: 150%;
+    width: 100%;
+    margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%; 
 }
@@ -97,24 +98,25 @@ h1{
 
 .tents {
     top: -650px;
-    margin-left: 50px;
+    margin-left: -8px;
     margin-top: 0%;
+    opacity: 0.2;
     height:100%;
     width: 100%;
 }
 
 .overlap {
-    top: 200px;
-    margin-left: -180px;
-    margin-top: -140%;
+    top: -100px;
+    margin-left: -0px;
+    margin-top: -150.3%;
     height: 100%;
     width: 100%;
 }
 
 
 .productcontainer{
-    height: 200%;
-    width: 200%;
+    height: 400%;
+    width: 400%;
     margin-left: 100%;
 }
 
@@ -178,7 +180,7 @@ h1{
     width: 40%;
     margin-left: 55%;
     letter-spacing: 4px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
   .greenbagtext {
@@ -189,7 +191,7 @@ h1{
     margin-left: 55%;
     text-align: left;
     letter-spacing: 7px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -198,7 +200,8 @@ h2 {
     margin-right: -30%;
     font-size: 20px;
     letter-spacing: 7px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 40px;
 }
 
 .row{
@@ -251,12 +254,14 @@ h2 {
 
 .label{
     text-align: left;
-    margin-left: 10%;
-    width: 100px;
+    margin-left: -0.3%;
+    height: 16%;
+    width: 22%;
     margin-right: -20%;
     font-size: 16px;
+    margin-top: -1.5%;
     letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -273,7 +278,7 @@ h2 {
     max-width: 90%;
     margin-left: 5%;
     text-align: center;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 200px;
     letter-spacing: 3px;
     line-height: 30px;
@@ -343,9 +348,11 @@ h2 {
       background-color: lightgray;
       margin-left: 82%;
       margin-top: -60px;
+      padding-bottom: 25px;
+      padding-top: 10px;
       text-align: center;
       font-size: 16px;
-      padding-top: 12px;
+  
 
   }
 
@@ -457,7 +464,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -478,7 +485,7 @@ button:hover {
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -488,7 +495,7 @@ button:hover {
   padding: 0px;
   margin-top: 100px;
   margin-bottom: -9%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -528,14 +535,16 @@ span.psw {
 .homecenter{
   height: 40px;
   width: 160px;
-  background-color: lightgray;
+  background-color: white;
   margin-left: 45%;
   margin-right: 55%;
-  margin-top: 20%;
+  margin-top: 7%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 24px lightgray;
   font-size: 18px;
   padding-top: 8px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .homehover:hover .overlay {
@@ -558,26 +567,29 @@ span.psw {
 
 .final {
   background-color: white;
-  padding: 18px 26px;
-  margin: 8px 0;
+  padding: 18px 50px;
+  margin: 5px 0;
   border: none;
   cursor: pointer;
-  width: 200px;
+  width: 300px;
   height: 60px;
   position: absolute;
   margin-left: 43%;
-  margin-top: 8%;
-  font-family: 'Open Sans', sans-serif;
-  box-shadow: 0px 6px 40px black;
+  margin-top: -140%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  box-shadow: 0px 4px 20px grey;
+  
 }
 
 .p3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
   text-align: center;
   margin-top: 10px;
   position: absolute;
   color: black;
   z-index: 100;
   letter-spacing: 19px;
+  font-weight: 10px;
 }
